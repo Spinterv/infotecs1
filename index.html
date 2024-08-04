@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Test_zadanie</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Table</title>
+</head>
+<body>
+    <input type="search" id="searchInput" placeholder="Поиск..." style="font-size: 14px">
+    <table id="userTable">
+			 <thead>
+            <tr>
+                <th data-key="firstName" data-sort="none">ФИО<span></span></th>
+                <th data-key="age" data-sort="none">Возраст<span></span></th>
+                <th data-key="gender" data-sort="none">Пол<span></span></th>
+              	<th>Номер телефона</th>
+                <th data-key="address.city" data-sort="none">Адрес<span></span></th>
+             </tr>
+        </thead>
+    	  <tbody>
+  			</tbody>
+    </table>
+		<div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">×</span>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src='//unpkg.com/react/umd/react.development.js'></script>
+<script src='//unpkg.com/react-dom/umd/react-dom.development.js'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>
